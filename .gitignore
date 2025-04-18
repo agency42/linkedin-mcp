@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# build output
+build/
+
+# environment variables
+.env
+tokenStore.json
+
+# macOS
+.DS_Store
+
+# backup archives
+*.tar.gz
