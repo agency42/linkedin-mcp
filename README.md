@@ -65,7 +65,12 @@ LINKEDIN_REDIRECT_URI=http://localhost:8000/auth/linkedin/callback
 
 ## Claude Desktop Integration
 
-Configure your Claude Desktop to use the older `mcpServers` format by updating `claude-config.json`:
+1. Run `npm run dev:auth`
+2. Visit `http://localhost:8000/auth/linkedin` in browser → complete LinkedIn login.
+3. Confirm “Authentication successful!”. A token file should be generated. Do not close this terminal.
+4. Open Claude Desktop and verify the tools are listed
+
+Configure your Claude Desktop config file:
 
 ```json
 {
