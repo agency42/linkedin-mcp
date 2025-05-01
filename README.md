@@ -70,7 +70,7 @@ LINKEDIN_REDIRECT_URI=http://localhost:8000/auth/linkedin/callback
 3. Confirm “Authentication successful!”. A token file should be generated. Do not close this terminal.
 4. Open Claude Desktop and verify the tools are listed
 
-Configure your Claude Desktop config file:
+Configure your `claude_desktop_config.json` file:
 
 ```json
 {
@@ -95,4 +95,6 @@ Configure your Claude Desktop config file:
   "globalShortcut": "Ctrl+Space"
 }
 ```
+(You can find this file from Claude Desktop by going to settings > developer > edit config)
+
 Save and **restart Claude Desktop** to apply changes.
